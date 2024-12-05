@@ -1,0 +1,11 @@
+services:
+  webapp:
+    build:
+      context: .
+      args:
+        - API_KEY=DEMO_KEY
+        - CONFIGURATION=development
+    ports:
+      - "4200:80"
+    environment:
+      - NODE_ENV=production

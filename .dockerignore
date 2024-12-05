@@ -1,0 +1,14 @@
+.git
+.gitignore
+.editorconfig
+README.md
+*.md
+node_modules
+npm-debug.log
+Dockerfile
+docker-compose.yml
+.dockerignore
+dist
+.angular
+coverage
+*.spec.ts
